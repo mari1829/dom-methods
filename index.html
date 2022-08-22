@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/script.js"></script>
+
+    <button onclick="statup()">Click Here</button>
+    <h1 id="heading">Get Element By Id </h1>
+
+    <form onsubmit="return validation()">
+            <legend>User Details</legend>
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname" id="fname"><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass"><br><br>
+            <label for="cpass">Confirm Password</label>
+            <input type="password" name="cpass" id="cpass" oninput="passcomp()"><span id="span1"></span><br><br>
+            <button id="btn1">Submit</button>
+    </form>
+       
+   
+    
+</body>
+</html>

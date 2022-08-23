@@ -1,6 +1,7 @@
 function statup()
 {
 var a=document.getElementById("heading")
+
 // document.write(a);
 a.style.color="red";
 // a.style.fontSize="80px"
@@ -24,8 +25,6 @@ function passcomp(){
     }
     else{
         let z=document.getElementById("span1").innerHTML="Your password Is INcorrect";
-        
-
     }
     
 }

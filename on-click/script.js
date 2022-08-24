@@ -28,3 +28,20 @@ function passcomp(){
     }
     
 }
+
+function myfun(){
+    let m=document.getElementById("male");
+    let f=document.getElementById("female");
+    let o=document.getElementById("others");
+
+    if(m.checked)
+        alert("Your Gender Is Male");
+    else if(f.checked)
+        alert("Your Gender Is Female");
+    else if(o.checked)
+        alert("Your Gender Is Others");
+    else
+    alert("Choose Your Gender");
+
+    
+}

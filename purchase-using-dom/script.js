@@ -1,14 +1,8 @@
-function items(){
-	let prod=document.getElementById("singleprice").innerText;
-	// console.log(prod);
-	let q=document.getElementById("quan").value;
-	
-
-	let total_price=prod*q;
-	// console.log(total_price);
-	document.getElementById("amount").innerHTML=total_price;
-	// return total_price;		
+function items() {
+  let q, total_price, prod; 
+ prod = document.getElementById("singleprice").innerText;
+  q = document.getElementById("quan").value;
+  total_price = prod * q;
+  document.getElementById("amount").innerHTML = total_price;
 }
-
-
-document.getElementById("trigger").addEventListener('click',items);
+document.getElementById("trigger").addEventListener("click", items);
